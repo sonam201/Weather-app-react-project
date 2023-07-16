@@ -34,7 +34,10 @@ const Temp = () => {
   return (
     <>
       <div>
-        <div className="flex mt-[200px] justify-center bg-black">
+        <h1 className="text-blue-600 mt-[100px] text-[50px] font-bold animate-pulse">
+          Check Weather !
+        </h1>
+        <div className="flex mt-[50px] justify-center bg-black">
           <input
             className="border-2 outline-none rounded-xl "
             autoFocus
